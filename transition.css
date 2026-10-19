@@ -1,0 +1,32 @@
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition: 3s;
+}
+.circle:hover{
+    background-color: cornsilk;
+    border-radius: 50%;
+}
+.box div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 5px;
+    margin: 10px;
+    transition: margin-left 3s;
+
+}
+ .box:hover div{
+    margin-left: 500px;
+}
+div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+div:nth-last-of-type(2){
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+div:nth-last-of-type(3){
+    transition-timing-function: ease-out;
+}

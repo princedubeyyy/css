@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    background-color: #151b29; 
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 500px;
+   
+
+    
+}
+.first{
+    color:white;
+    width: 32%;
+    height: 32%;
+    background-color: #432818;
+    border: 3px solid #fdf0d5;
+    margin: 5px;
+    padding: 4px;
+box-sizing: border-box;
+transition: 0.5s;
+
+
+   
+}
+.second{
+    color:white;
+    width: 32%;
+    height: 32%;
+    background-color: #669bbc;
+    border: 3px solid #fdf0d5;
+    margin: 5px;
+    padding: 4px;
+   box-sizing: border-box;
+transition: 0.5s;
+}
+.third
+{
+     color:white;
+    width: 32%;
+    height: 32%;
+    background-color: #723d46;
+    border: 3px solid #fdf0d5;
+    margin: 5px;
+    padding: 4px;
+    box-sizing: border-box;
+transition: 0.5s;
+}
+div:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em  #f1ff5c;
+    transform: translateY(-1px);
+    transition-timing-function: ease-in;
+    
+}

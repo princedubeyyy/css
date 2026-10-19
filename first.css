@@ -1,0 +1,40 @@
+h1,h2{
+    text-align: center;
+    text-decoration: underline wavy teal;
+    font-style: italic;
+    text-transform: capitalize;
+    color: rgb(63, 163, 130);
+
+}
+h1:hover{
+    visibility: visible;
+}
+
+button {
+    background-color: aquamarine;
+    visibility: hidden;
+}
+
+#logout {
+    background-color: rgb(8, 134, 139);
+    color: aliceblue;
+}
+
+.info {
+    text-align: center;
+}
+
+footer li a {
+    text-decoration: underline wavy teal;
+}
+
+input[type=search] {
+    text-decoration: line-through wavy;
+}
+
+a[href="https://en.wikipedia.org/wiki/Anime"] {
+    color: rgb(0, 160, 160);
+}
+button:hover{
+    color:magenta;
+background-color: whitesmoke;}

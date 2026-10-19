@@ -1,0 +1,26 @@
+.nav-bar{
+   border: 4px solid #d4a373;
+   border-radius: 20px;
+   background-color:  #151b29 ;
+   
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+   
+}
+li{
+    margin-right: 5px;
+    transition: 2s;
+    border: 3px solid black;
+    
+  
+}
+li:hover{
+    
+   border-radius: 10px;
+
+}
+a{
+    color:white;
+}

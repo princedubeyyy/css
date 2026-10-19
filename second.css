@@ -1,0 +1,37 @@
+h1{
+    background-color: #003049;
+  
+    text-align: center;
+      width: fit-content;
+}
+#one{
+    background-color: #fdf0d5;
+   
+text-align: center;
+ width: fit-content;
+ margin: 50px;
+ 
+}
+#two{
+    background-color: #c1121f;
+text-align: center;
+margin: 50px;
+}
+#three{
+    background-color: #780000;
+    text-align: center;
+    margin: 50px;
+}
+h1{
+    border-width:3px ;
+    border-color: #bc6c25;
+    border-style: solid;
+}
+button{
+    padding: 10px;
+    text-align: center;
+    
+}
+h1{
+    display: inline;
+}

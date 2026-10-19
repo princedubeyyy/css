@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif
+    box-sizing: border-box;
+    font-weight: 400;
+   
+
+}
+body{
+    background-color: #151b29;
+     height: 100vh;
+      display: flex;   
+  justify-content: center;
+  align-items: center;
+}
+.profile_card{
+    background-color: aliceblue;
+    width: 250px;;
+    height: 50vh;
+    border-radius: 8px;
+    transition: 3s;
+}
+.image{
+    background-color: #0077b6;
+    width: 250px;
+    height: 115px;
+    object-fit: cover;
+       display: flex;   
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+}
+ 
+
+.profile_image{
+    width: 30%;
+    height: 60%;
+    border-radius: 50%;
+    border:2px solid #0077b6;
+    object-fit: centre;
+    position: relative;
+    top:50px
+    
+}
+.info{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:30px;
+    flex-direction: column;
+    align-items: center;
+
+}
+span{
+    font-weight: 300;
+}
+.media{
+    display: flex;
+    
+}
+
+    
+.mess{
+   padding: 2px;
+   
+    margin: 18px;
+    font-size: smaller;
+    position: relative;
+    top: 5px;
+   
+}
+.mess{
+    border: 1px solid #0077b6;
+    border-radius: 10px;
+    background-color: #0077b6;
+    color: white;
+
+
+}
+.icon{
+    padding: 4px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: fit-content;
+    width: fit-content;
+    transition: 0.25s;
+}
+a{
+    color: white;
+    font-size: small;
+}
+.facebook{
+    background-color: #1877F2;
+    border-color:#1877F2 ;
+   
+    }
+    .insta{
+        background-color: #E4405F;
+        border:#E4405F ;
+    }
+    .youtube{
+        background-color: #FF0000;
+        border-color: #FF0000;
+    }
+    .twitter{
+        background-color: black;
+        border: black;
+    }
+    .profile_card:hover{
+        border-color: #f1ff5c;
+    
+    box-shadow: 0 0.5em 0.5em -0.4em  #f1ff5c;
+    transform: translateY(-0.4em);
+    cursor: pointer;
+}
+.icon:hover{
+    transform: translateY(-1px);
+
+}
+
+
+    
